@@ -1,0 +1,80 @@
+body {
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	background-color: white;
+
+}
+
+.page {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+
+p {
+	padding: 10px;
+}
+
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Sigmar One', cursive;
+}
+
+h2 {
+	padding: 20px;
+}
+
+form {
+	padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkred;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+footer {
+	position: relative;
+	top: 400px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #222931;
+	color: white;
+	text-align: center;
+
+}
+
+.error {
+	color: red;
+}
